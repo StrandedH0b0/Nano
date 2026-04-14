@@ -12,7 +12,7 @@ def main_menu():
         print("5. Woordenboek")
         print("6. Afsluiten")
 
-        keuze = input("Maak een keuze (1-5): ")
+        keuze = input("Maak een keuze (1-6): ")
 
         if keuze == "1":
             print("\nStart Raad het nummer...\n")
