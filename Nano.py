@@ -9,7 +9,8 @@ def main_menu():
         print("2. Galgje")
         print("3. Word Scramble")
         print("4. Hoger Lager")        
-        print("5. Afsluiten")
+        print("5. Woordenboek")
+        print("6. Afsluiten")
 
         keuze = input("Maak een keuze (1-5): ")
 
@@ -30,6 +31,9 @@ def main_menu():
             subprocess.run([sys.executable, "HogerLager.py"])    
 
         elif keuze == "5":
+            print("\nWoordenboek...\n")
+            subprocess.run([sys.executable, "EngelsWoordenboek.py"])
+        elif keuze == "6":
             print("Programma wordt afgesloten.")
             break
 
